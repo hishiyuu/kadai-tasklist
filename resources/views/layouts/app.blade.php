@@ -11,6 +11,8 @@
             <nav class="navbar navbar-expand-sm navbar-light bg-dark">
                 <a class="navbar-brand" href="/">TaskList</a>
             
+        @include('commons.error_messages')
+        
             <div class="collapse navbar-collapse" id="nav-bar">
                 <ul class="navbar-nav mr-auto"></ul>
                 <ul class="navbar-nav">
